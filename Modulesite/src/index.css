@@ -43,14 +43,14 @@ body {
   justify-content: center;
   align-content: center;
   
-  width: 400px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .display {
   display:flex;
   height: 80px;
-  justify-content: flex-end;
+  justify-content:center;
   align-items: center;
   background-color: black;
   color: white;
