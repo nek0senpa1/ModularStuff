@@ -58,7 +58,12 @@ body {
   border: 2px solid gray;
 }
 
-
+.left {
+  display: flex;
+  height: 700px;
+  width: 22%;
+  background-color: gray;
+}
 
 .row {
   display:flex;

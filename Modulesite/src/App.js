@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Widget1 from './components/Top'
+import Top from './components/Top';
+import Left1 from './components/Left1';
 import RegNum, { BigNum } from './components/ButtonComponents/NumberButton';
 import Oper from './components/ButtonComponents/ActionButton';
 
@@ -8,9 +9,11 @@ const App = () => {
   return (
     <div class='container'>
 
-      <Widget1 />
+      <Top />
+      <div class ="left">
+      <Left1 class = "lefty" />
 
-     
+      </div>
       
 
      
