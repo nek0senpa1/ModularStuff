@@ -2,23 +2,37 @@ import React from 'react';
 import './App.css';
 import Top from './components/Top';
 import Left1 from './components/Left1';
-import RegNum, { BigNum } from './components/ButtonComponents/NumberButton';
-import Oper from './components/ButtonComponents/ActionButton';
+import Left2 from './components/Left2';
+import Middle1 from './components/Middle1';
+import Middle2 from './components/Middle2';
+
 
 const App = () => {
   return (
+    
     <div class='container'>
-
+      <div>
       <Top />
-      <div class ="left">
-      <Left1 class = "lefty" />
+      </div>
 
+      <div class="maincont">
+
+      <div class ="left">
+      <Left1 />
+      <Left2 />
+      </div>
+
+      <div class ="middle">
+      <Middle1 />
+      <Middle2 />
+      
       </div>
       
+      </div>
 
      
       
-    </div>
+      </div>
   );
 };
 

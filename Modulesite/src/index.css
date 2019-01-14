@@ -50,6 +50,7 @@ body {
 .display {
   display:flex;
   height: 80px;
+  width: 100%;
   justify-content:center;
   align-items: center;
   background-color: black;
@@ -58,52 +59,49 @@ body {
   border: 2px solid gray;
 }
 
+.maincont {
+  display:flex;
+  flex-direction: row;
+}
+
 .left {
   display: flex;
+  flex-direction: column;
   height: 700px;
   width: 22%;
   background-color: gray;
 }
 
-.row {
-  display:flex;
-  width: 100%;
+.lefty {
+  display: flex;
+  margin-top: 8px;
+  padding: 5px;
   
-
+  height: 324px;
+  width: 100%;
+  border: 1px solid red;
 }
 
-.numbox {
+.left {
   display: flex;
-  width: 25%;
-  height: 78px;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: black;
-  border: 1px solid gray;
-  font-size: 2.5rem;
+  flex-direction: column;
+  height: 700px;
+  width: 22%;
+  background-color: gray;
 }
 
-.numboxL {
+.middle {
+  
   display: flex;
-  width: 75%;
-  height: 78px;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: black;
-  font-size: 2.5rem;
-  border: 1px solid gray;
+  flex-direction: column;
+  height: 700px;
+  width: 66%;
+  background-color: blueviolet;
+  
 }
 
-.opbox {
-  display:flex;
-  width: 24%;
-  height: 78px;
-  align-items: center;
-  justify-content: center;
-  background-color: darkred;
-  color: white;
-  font-size: 2.5rem;
-  border: 1px solid gray;
+.midley {
+  display: flex;
+  padding: 10px;
+  padding: 10px;
 }
